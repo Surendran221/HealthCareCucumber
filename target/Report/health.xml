@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="13.615409">
+<testcase classname="validate the login functionality of healthcare page" name="validate the productS" time="13.615409">
+<failure message="java.lang.AssertionError: chk con&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.StepDefinition.ProductStep2.userShouldNavigAteToCorrectCredentialPageAreNoT(ProductStep2.java:84)&#13;&#10;&#9;at ✽.user should NavigAte to Correct credential page Are NoT(file:src/test/resources/FeatureFiles/Product2.feature:15)&#13;&#10;"><![CDATA[When user ShOuld Click Search box passinG values............................passed
+When user Should input DetailS oF the PagE..................................passed
+And user shouLd click thE searcH bUtton.....................................passed
+Then user should NavigAte to Correct credential page Are NoT................failed
+
+StackTrace:
+java.lang.AssertionError: chk con
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.StepDefinition.ProductStep2.userShouldNavigAteToCorrectCredentialPageAreNoT(ProductStep2.java:84)
+	at ✽.user should NavigAte to Correct credential page Are NoT(file:src/test/resources/FeatureFiles/Product2.feature:15)
+]]></failure>
+</testcase>
+</testsuite>
